@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Activity3">
+
+    <TextView
+        android:id="@+id/recordText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Record your video here: " />
+
+    <Button
+        android:id="@+id/recordButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Record"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/recordText"/>
+
+    <TextView
+        android:id="@+id/uploadText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/recordButton"
+        android:text="Upload your video here: " />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Upload"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/uploadText"/>
+
+</RelativeLayout>

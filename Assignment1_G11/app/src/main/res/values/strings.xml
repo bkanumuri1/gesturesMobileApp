@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Gestures for HCI</string>
+
+    <string-array name="gestureList">
+        <item>Select a gesture</item>
+        <item>AC Power</item>
+        <item>Algorithm</item>
+        <item>Antenna</item>
+        <item>Authentication</item>
+        <item>Authorization</item>
+        <item>Bandwidth</item>
+        <item>Bluetooth</item>
+        <item>Browser</item>
+        <item>Cloud Computing</item>
+        <item>Data Compression</item>
+        <item>Data Link Layer</item>
+        <item>Data Mining</item>
+        <item>Decryption</item>
+        <item>Domain</item>
+        <item>Email</item>
+        <item>Exposure</item>
+        <item>Filter</item>
+        <item>Firewall</item>
+        <item>Flooding</item>
+        <item>Gateway</item>
+        <item>Hacker</item>
+        <item>Header</item>
+        <item>Hot Swap</item>
+        <item>Hyperlink</item>
+        <item>Infrastructure</item>
+        <item>Integrity</item>
+        <item>Internet</item>
+        <item>Intranet</item>
+        <item>Latency</item>
+        <item>Loopback</item>
+        <item>Motherboard</item>
+        <item>Network</item>
+        <item>Networking</item>
+        <item>Network Layer</item>
+        <item>Node</item>
+        <item>Packet</item>
+        <item>Partition</item>
+        <item>Password Sniffing</item>
+        <item>Patch</item>
+        <item>Phishing</item>
+        <item>Physical Layer</item>
+        <item>Ping</item>
+        <item>Port scan</item>
+        <item>Presentation Layer</item>
+        <item>Protocol</item>
+    </string-array>
+</resources>

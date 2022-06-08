@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Activity2">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"></VideoView>
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="153dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/videoView"
+        android:text="Play Tutorial"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="30dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/practiceButton"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Practice"
+        android:layout_below="@+id/videoView"
+        android:layout_marginLeft="233dp"></Button>
+
+</RelativeLayout>
